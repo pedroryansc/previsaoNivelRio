@@ -17,3 +17,11 @@ if(enviar):
     nivelRioDoSul = modeloRegressao.predict([[nivelItuporanga, chuvaItuporanga, nivelTaio, chuvaTaio]])[0][0]
 
     st.write(f"Nível do rio em Rio do Sul: {nivelRioDoSul:.2f} cm")
+
+# Para visualizar a aplicação no navegador, é preciso executar o comando
+
+    # streamlit run app.py
+
+# ou, caso não funcione,
+
+    # python -m streamlit run app.py
